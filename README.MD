@@ -4,6 +4,6 @@ A simple chrome extension for verifying Crypto Exchanges, wallet and protecting 
 **[Download from Chrome Web Store](https://chrome.google.com/webstore/detail/cryptocurrency-website-an/gemckbcnhjhpkieinkcpdeemgjidlmfn)**
 
 ## Screenshot
-![Crypto Verifier](https://github.com/ArmanFeyzi/crypto-anti-phishing/master/screenshot.jpg)
+![Crypto Verifier](https://github.com/ArmanFeyzi/crypto-anti-phishing/blob/master/screenshot.jpg)
 
 
