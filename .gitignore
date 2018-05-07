@@ -10,3 +10,4 @@ app/scripts
 .idea/
 .vscode/
 dist
+package-lock.json

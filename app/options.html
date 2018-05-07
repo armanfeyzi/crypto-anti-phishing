@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Crypto Verifier - Options</title>
   <style>
-
     body {
       margin: 0;
       padding: 0;
       background: #f2f2f2;
-			font-family: "Tahoma", sans-serif;
+      font-family: "Tahoma", sans-serif;
     }
 
     .container {
       width: 100%;
-      max-width: 800px;
+      max-width: 900px;
       margin: 60px auto 50px;
       padding: 20px 0px 20px 0px;
       background: #fff;
@@ -35,7 +35,7 @@
 
     .row {
       width: 100%;
-      clear:both;
+      clear: both;
       overflow: auto;
       zoom: 1;
       direction: rtl;
@@ -103,14 +103,16 @@
     .row .input {
       font-size: 20px;
       line-height: 2em;
-      width: 45%;
+      width: auto;
       float: left;
+      margin-right: 15px;
     }
 
-    .row .input input, .row .input select {
-      font-size: 14px;
+    .row .input input,
+    .row .input select {
+      font-size: 12px;
       line-height: 1.5em;
-			font-family: "Tahoma", sans-serif;
+      font-family: sans-serif;
       direction: ltr;
     }
 
@@ -127,49 +129,97 @@
     .row .input #submit:hover {
       opacity: 0.7;
     }
+
+    .dr {
+      direction: ltr;
+      float: right !important;
+    }
+
+    .notify {
+      margin-top: 25px;
+    }
+
+    #note {
+      text-align: left;
+      direction: ltr;
+      font-size: 15px;
+      padding: 10px;
+      line-height: 22px;
+      color: #373737;
+    }
   </style>
   <script src="scripts/options.js"></script>
 </head>
+
 <body>
   <div class="container">
     <div id="logo">
       <img src="images/icon-128.png" alt="">
-    </div> <!-- #logo -->
-    
+    </div>
+    <!-- #logo -->
+
     <div class="row">
+
       <div class="label">
+
+        <div class="input">
+          <input class="option" type="checkbox" name="automaticNotification" id="automaticNotification">
+        </div>
+        <!-- .input -->
+
         Display notification
         <div class="description">
           If enabel this option when you browse website automaticly display the notification.
           <span class="warning">
-              If you are a Mac OS user, note that if fullscreen Google Chrome is running, notifications will not be displayed.
+            If you are a Mac OS user, note that if fullscreen Google Chrome is running, notifications will not be displayed.
           </span>
-        </div> <!-- .description -->
-      </div> <!-- .label -->
+        </div>
+        <!-- .description -->
 
-      <div class="input">
-        <input class="option" type="checkbox" name="automaticNotification" id="automaticNotification">
-      </div> <!-- .input -->
-    </div> <!-- .row -->
+        <div id="automaticNotificationDurationWrapper">
+          <div class="notify">
 
-    <div class="row" id="automaticNotificationDurationWrapper">
-      <div class="label">
-        Notification timeout
-      </div> <!-- .label -->
+            <div class="input dr">
+              <select class="option" name="automaticNotificationDuration" id="automaticNotificationDuration">
+                <option value="2" selected>Short ( 2 Sec )</option>
+                <option value="5">Normal ( 5 Sec )</option>
+                <option value="10">Long ( 10 Sec )</option>
+              </select>
+            </div>
+            <!-- .input -->
+            Notification timeout
+          </div>
+          <!-- .label -->
 
-      <div class="input">
-        <select class="option" name="automaticNotificationDuration" id="automaticNotificationDuration">
-          <option value="2" selected>Short ( 2 Sec )</option>
-          <option value="5">Normal ( 5 Sec )</option>
-          <option value="10">Long ( 10 Sec )</option>
-        </select>
-      </div> <!-- .input -->
-    </div> <!-- .row -->
+        </div>
 
-  </div> <!-- .container -->
+      </div>
+      <!-- .label -->
+
+      <div id="note">
+        <h3>
+          Donate
+        </h3>
+        This project is open source and it's free, If you want support this project you can buy me a beer ;)
+        <br>
+        <br>
+        <p>
+          BTC: 1JsoLWCHN7sCyYT5gGohaUXyjcnZYpVGNR
+        </p>
+        <p>
+          ETH: 0xe5B5Ee9b878dA7b047D5BA8f516BFF79235b5Ad4
+        </p>
+      </div>
+
+    </div>
+    <!-- .row -->
+
+  </div>
+  <!-- .container -->
 
   <div id="successMessage">
     Saved successfully
   </div>
 </body>
+
 </html>
