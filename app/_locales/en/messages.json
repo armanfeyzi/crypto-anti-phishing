@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Cryptocurrency website anti phishing",
+    "description": "Cryptocurrency website anti phishing"
+  },
+  "appDescription": {
+    "message": "Verify Cryptocurrency exchange, wallet and protect users against phishing attacks",
+    "description": "Detect offical cryptocurrency exchange and wallet uri and protects users against phishing attacks."
+  },
+  "verified": {
+  	"message": "Verified!",
+  	"description": "The verified status"
+  }
+}
