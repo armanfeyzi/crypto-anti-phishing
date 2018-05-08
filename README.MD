@@ -6,6 +6,6 @@ This chrome extension has been developed in order to protect the users from phis
 **[Download from Chrome Web Store](https://chrome.google.com/webstore/detail/cryptocurrency-website-an/gemckbcnhjhpkieinkcpdeemgjidlmfn)**
 
 ## Screenshot
-![Crypto Verifier](https://github.com/ArmanFeyzi/crypto-anti-phishing/blob/master/screenshot.jpg)
+![Crypto Verifier](https://github.com/ArmanFeyzi/crypto-anti-phishing/blob/master/screenshot.png)
 
 
