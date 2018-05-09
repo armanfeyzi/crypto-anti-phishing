@@ -9,3 +9,4 @@ This chrome extension has been developed in order to protect the users from phis
 ![Crypto Verifier](https://github.com/ArmanFeyzi/crypto-anti-phishing/blob/master/screenshot.png)
 
 
+Based on: **[Shaparak Verifier](https://github.com/alibo/shaparak-verifier-chrome)**
