@@ -2,7 +2,9 @@ export default
 {
   'www.bitgo.com': 'www.bitgo.com',
   'greenaddress.it': 'greenaddress.it',
+  'tippin': 'tippin.me',
   'blockchain': 'blockchain.info',
+  'blockchain': 'blockchain.com',
   'coinapult.com': 'coinapult.com',
   'localbitcoin': 'localbitcoins.com',
   'binance': 'www.binance.com',
